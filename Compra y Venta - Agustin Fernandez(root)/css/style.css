@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+
+.nav__list {
+    list-style: none;
+    text-align: center;
+    width: 100rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 50rem;
+    display: inline-block;
+    width: 100rem;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.img__logo {
+    height: 6rem;
+    width: 6rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+
