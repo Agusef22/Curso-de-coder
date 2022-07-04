@@ -11,229 +11,205 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <div>
-            <a class="logo" href="./index.html">
-                <img class="img__logo" src="./icon/criptomoneda.png" alt="icon-page">
-            </a>
+    <header class="header-container">
+        <div class="container">
+            <div class="div-container-logo">
+                <a class="logo" href="./index.html">
+                    <img class="img__logo" src="./icon/criptomoneda.png" alt="icon-page">
+                    <h1 class="title-logo">CriptoAvisos</h1>
+                </a>
+            </div>
+            <nav class="navegation">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="./index.html">Inicio</a></li>
+                    <li><a class="nav__link" href="./pages/comercios.html">Comercios</a></li>
+                    <li><a class="nav__link" href="./pages/blog.html">Blog</a></li>
+                    <li><a class="nav__link" href="./pages/contactanos.html">Contactanos</a></li>
+                    <li><a class="nav__link" href="./pages/nosotros.html">Nosotros</a></li>
+                    <li><a class="nav__link" href="#">Buscar</a></li>
+                    <li><a id="pub" class="nav__link" href="#">Publica Gratis</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navegation">
-            <ul class="nav__list">
-                <li><a class="nav__link" href="./index.html">Inicio</a></li>
-                <li><a class="nav__link" href="./pages/comercios.html">Comercios</a></li>
-                <li><a class="nav__link" href="./pages/blog.html">Blog</a></li>
-                <li><a class="nav__link" href="./pages/contactanos.html">Contactanos</a></li>
-                <li><a class="nav__link" href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a class="nav__link" href="#">Buscar</a></li>
-                <li><a class="nav__link" href="#">Publica Gratis</a></li>
-            </ul>
-        </nav>
     </header>
     <!-- Categorias de Productos -->
     <main>
-        <section>
-            <h1>Categorias Principales</h1>
-            <div>
-                    <div>
-                        <img src="./icon/casa.png" alt="Inmuebles">
-                    </div>
-                    <div>
-                        <h3>Inmuebles</h3>
-                    </div>   
+        <section class="section-container">
+            <h1 class="title-section">Categorias Principales</h1>
+            <div class="div-container">
+                    <div class="image-container">
+                        <img class="image" src="./icon/casa.png" alt="Inmuebles">
+                        <h3 class="title-image">Inmuebles</h3>
+                    </div>  
                   
-                    <div>
-                        <img src="./icon/coche.png" alt="Vehiculos">
-                    </div>
-                    <div>
-                        <h3>Vehiculos</h3>
+                    <div class="image-container">
+                        <img class="image" src="./icon/coche.png" alt="Vehiculos">
+                        <h3 class="title-image">Vehiculos</h3>
                     </div>
 
-                    <div>
-                        <img src="./icon/producto.png" alt="Producto">
-                    </div>
-                    <div>
-                        <h3>Producto</h3>
+                    <div class="image-container">
+                        <img class="image" src="./icon/producto.png" alt="Producto">
+                        <h3 class="title-image">Producto</h3>
                     </div>
                     
-                    <div>
-                        <img src="./icon/servicio-tecnico.png" alt="Servicio">
-                    </div>
-                    <div>
-                        <h3>Servicios</h3>
+                    <div class="image-container">
+                        <img class="image" src="./icon/servicio-tecnico.png" alt="Servicio">
+                        <h3 class="title-image">Servicios</h3>
                     </div>
             
-                    <div>
-                        <img src="./icon/mineria-bitcoin.png" alt="Mineria criptomoneda">
-                    </div>
-                    <div>
-                        <h3>Mineria</h3>
+                    <div class="image-container">
+                        <img class="image" src="./icon/mineria-bitcoin.png" alt="Mineria criptomoneda">
+                        <h3 class="title-image">Mineria</h3>
                     </div>
                     
-                    <div>
-                        <img src="./icon/mas.png" alt="Add">
+                    <div id="mas" class="image-container">
+                        <img class="image" src="./icon/mas.png" alt="Add">
                     </div>
             </div>
         </section>
         <!-- Smart Contract -->
-        <section>
+        <section class="section-contract">
             <h2>Comprar Via Smart Contract</h2>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
+            <div class="div-product-container">
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/compu.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div> 
+                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/watch.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt=""> 
+                    </div>  
+                    <span class="info-span">Apple Watch Series 3 Nike</span>  
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/auris.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div>  
+                    <span class="info-span">Galaxy Buds Pro Negro</span> 
                 </div>
             </div>
         </section>
         <!-- Inmuebles -->
-        <section>
+        <section class="section-contract">
             <h2>Inmuebles</h2>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
+            <div class="div-product-container">
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/compu.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div> 
+                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/watch.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt=""> 
+                    </div>  
+                    <span class="info-span">Apple Watch Series 3 Nike</span>  
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/auris.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div>  
+                    <span class="info-span">Galaxy Buds Pro Negro</span> 
                 </div>
             </div>
         </section>
         <!-- Vehiculos -->
-        <section>
+        <section class="section-contract">
             <h2>Vehiculos</h2>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <span>Precio Producto</span>    
-                </div>
-                <div>
-                    <span>Info Producto</span>    
+            <div class="div-product-container">
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/compu.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div> 
+                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/watch.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt=""> 
+                    </div>  
+                    <span class="info-span">Apple Watch Series 3 Nike</span>  
+                </div> 
+                <div class="image-product-container">
+                    <img class="image-contract" src="./images/auris.jpg" alt="">
+                    <div class="info-container">
+                        <span class="span-product">1000</span>    
+                        <img class="icon-info" src="./icon/tether.png" alt="">
+                    </div>  
+                    <span class="info-span">Galaxy Buds Pro Negro</span> 
                 </div>
             </div>
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <div>
-            <a href="./index.html">
-                <img src="./icon/criptomoneda.png" alt="">
-            </a>
-            <div>
-                <img src="./icon/correo-electronico-vacio.png" alt="Email">
-                <h3>
-                    contacto@cryptoavisos.com
-                </h3>
+    <footer class="footer-container">
+        <div class="container-margin">
+            <div class="info-contact-container">
+                <a href="./index.html">
+                    <img class="icon-logo-footer" src="./icon/criptomoneda.png" alt="">
+                </a>
+                <div class="email-container">
+                    <img class="icon-contact" src="./icon/correo-electronico-vacio.png" alt="Email">
+                    <h3>
+                        contacto@cryptoavisos.com
+                    </h3>
+                </div>
+                <div class="number-container">
+                    <img class="icon-contact" src="./icon/whatsapp.png" alt="Numero Telefono">
+                    <h3>
+                        +54 9 341 514-7523
+                    </h3>
+                </div>
+                <div>
+                    <img class="icon-contact" src="./icon/facebook.png" alt="Facebook">            
+                    <img class="icon-contact" src="./icon/twitter.png" alt="Twitter">            
+                    <img class="icon-contact" src="./icon/instagram.png" alt="Instagram">            
+                    <img class="icon-contact" src="./icon/linkedin.png" alt="linkedin"> 
+                </div>         
             </div>
-            <div>
-                <img src="./icon/whatsapp.png" alt="Numero Telefono">
-                <h3>
-                    +54 9 341 514-7523
-                </h3>
+            <div class="enlaces-container">
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Navegacion</h3>
+                    <a class="enlace" href="./index.html">Inicio</a>
+                    <a class="enlace" href="#">Buscar</a>
+                    <a class="enlace" href="./pages/comercios.html">Comercios</a>
+                    <a class="enlace" href="./pages/blog.html">Blog</a>
+                    <a class="enlace" href="./pages/nosotros.html">Nosotros</a>
+                    <a class="enlace" href="./pages/contactanos.html">Contactanos</a>
+                    <a class="enlace" href="#">Publica Gratis</a>
+                </div>
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Categorias</h3>
+                    <a class="enlace" href="#">Inmuebles</a>
+                    <a class="enlace" href="#">Vehiculos</a>
+                    <a class="enlace" href="#">Productos</a>
+                    <a class="enlace" href="#">Servicios</a>
+                    <a class="enlace" href="#">Mineria</a>
+                </div>
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Informacion</h3>
+                    <a class="enlace" href="#">Terminos y Condiciones</a>
+                    <a class="enlace" href="#">Politica de Privacidad</a>
+                    <a class="enlace" href="./pages/nosotros.html">Quienes Somos</a>
+                </div>
             </div>
-            <div>
-                <img src="./icon/facebook.png" alt="Facebook">            
-                <img src="./icon/twitter.png" alt="Twitter">            
-                <img src="./icon/instagram.png" alt="Instagram">            
-                <img src="./icon/linkedin.png" alt="linkedin"> 
-            </div>         
-        </div>
-        <div>
-            <h3>Navegacion</h3>
-            <a href="./index.html">Inicio</a>
-            <a href="#">Buscar</a>
-            <a href="./pages/comercios.html">Comercios</a>
-            <a href="./pages/blog.html">Blog</a>
-            <a href="./pages/nosotros.html">Nosotros</a>
-            <a href="./pages/contactanos.html">Contactanos</a>
-            <a href="#">Publica Gratis</a>
-        </div>
-        <div>
-            <h3>Categorias</h3>
-            <a href="#">Inmuebles</a>
-            <a href="#">Vehiculos</a>
-            <a href="#">Productos</a>
-            <a href="#">Servicios</a>
-            <a href="#">Mineria</a>
-        </div>
-        <div>
-            <h3>Informacion</h3>
-            <a href="#">Terminos y Condiciones</a>
-            <a href="#">Politica de Privacidad</a>
-            <a href="./pages/nosotros.html">Quienes Somos</a>
         </div>
     </footer>
 </body>

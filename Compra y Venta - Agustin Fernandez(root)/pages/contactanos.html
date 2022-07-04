@@ -11,23 +11,26 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <div>
-            <a class="logo" href="../index.html">
-                <img class="img__logo" src="../icon/criptomoneda.png" alt="icon-page">
-            </a>
+    <header class="header-container">
+        <div class="container">
+            <div class="div-container-logo">
+                <a class="logo" href="../index.html">
+                    <img class="img__logo" src="../icon/criptomoneda.png" alt="icon-page">
+                    <h1 class="title-logo">CriptoAvisos</h1>
+                </a>
+            </div>
+            <nav class="navegation">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="../index.html">Inicio</a></li>
+                    <li><a class="nav__link" href="../pages/comercios.html">Comercios</a></li>
+                    <li><a class="nav__link" href="../pages/blog.html">Blog</a></li>
+                    <li><a class="nav__link" href="../pages/contactanos.html">Contactanos</a></li>
+                    <li><a class="nav__link" href="../pages/nosotros.html">Nosotros</a></li>
+                    <li><a class="nav__link" href="#">Buscar</a></li>
+                    <li><a id="pub" class="nav__link" href="#">Publica Gratis</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navegation">
-            <ul class="nav__list">
-                <li><a class="nav__link" href="../index.html">Inicio</a></li>
-                <li><a class="nav__link" href="../pages/comercios.html">Comercios</a></li>
-                <li><a class="nav__link" href="../pages/blog.html">Blog</a></li>
-                <li><a class="nav__link" href="../pages/contactanos.html">Contactanos</a></li>
-                <li><a class="nav__link" href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a class="nav__link" href="#">Buscar</a></li>
-                <li><a class="nav__link" href="#">Publica Gratis</a></li>
-            </ul>
-        </nav>
     </header>
     <!-- Formulario -->
     <main>
@@ -84,53 +87,57 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <div>
-            <a href="../index.html">
-                <img src="../icon/criptomoneda.png" alt="">
-            </a>
-            <div>
-                <img src="../icon/correo-electronico-vacio.png" alt="Email">
-                <h3>
-                    contacto@cryptoavisos.com
-                </h3>
+    <footer class="footer-container">
+        <div class="container-margin">
+            <div class="info-contact-container">
+                <a href="../index.html">
+                    <img class="icon-logo-footer" src="../icon/criptomoneda.png" alt="">
+                </a>
+                <div class="email-container">
+                    <img class="icon-contact" src="../icon/correo-electronico-vacio.png" alt="Email">
+                    <h3>
+                        contacto@cryptoavisos.com
+                    </h3>
+                </div>
+                <div class="number-container">
+                    <img class="icon-contact" src="../icon/whatsapp.png" alt="Numero Telefono">
+                    <h3>
+                        +54 9 341 514-7523
+                    </h3>
+                </div>
+                <div>
+                    <img class="icon-contact" src="../icon/facebook.png" alt="Facebook">            
+                    <img class="icon-contact" src="../icon/twitter.png" alt="Twitter">            
+                    <img class="icon-contact" src="../icon/instagram.png" alt="Instagram">            
+                    <img class="icon-contact" src="../icon/linkedin.png" alt="linkedin"> 
+                </div>         
             </div>
-            <div>
-                <img src="../icon/whatsapp.png" alt="Numero Telefono">
-                <h3>
-                    +54 9 341 514-7523
-                </h3>
+            <div class="enlaces-container">
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Navegacion</h3>
+                    <a class="enlace" href="../index.html">Inicio</a>
+                    <a class="enlace" href="#">Buscar</a>
+                    <a class="enlace" href="../pages/comercios.html">Comercios</a>
+                    <a class="enlace" href="../pages/blog.html">Blog</a>
+                    <a class="enlace" href="../pages/nosotros.html">Nosotros</a>
+                    <a class="enlace" href="../pages/contactanos.html">Contactanos</a>
+                    <a class="enlace" href="#">Publica Gratis</a>
+                </div>
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Categorias</h3>
+                    <a class="enlace" href="#">Inmuebles</a>
+                    <a class="enlace" href="#">Vehiculos</a>
+                    <a class="enlace" href="#">Productos</a>
+                    <a class="enlace" href="#">Servicios</a>
+                    <a class="enlace" href="#">Mineria</a>
+                </div>
+                <div class="navegation-container">
+                    <h3 class="title-navegation">Informacion</h3>
+                    <a class="enlace" href="#">Terminos y Condiciones</a>
+                    <a class="enlace" href="#">Politica de Privacidad</a>
+                    <a class="enlace" href="../pages/nosotros.html">Quienes Somos</a>
+                </div>
             </div>
-            <div>
-                <img src="../icon/facebook.png" alt="Facebook">            
-                <img src="../icon/twitter.png" alt="Twitter">            
-                <img src="../icon/instagram.png" alt="Instagram">            
-                <img src="../icon/linkedin.png" alt="linkedin"> 
-            </div>         
-        </div>
-        <div>
-            <h3>Navegacion</h3>
-            <a href="../index.html">Inicio</a>
-            <a href="#">Buscar</a>
-            <a href="../pages/comercios.html">Comercios</a>
-            <a href="../pages/blog.html">Blog</a>
-            <a href="../pages/nosotros.html">Nosotros</a>
-            <a href="../pages/contactanos.html">Contactanos</a>
-            <a href="#">Publica Gratis</a>
-        </div>
-        <div>
-            <h3>Categorias</h3>
-            <a href="#">Inmuebles</a>
-            <a href="#">Vehiculos</a>
-            <a href="#">Productos</a>
-            <a href="#">Servicios</a>
-            <a href="#">Mineria</a>
-        </div>
-        <div>
-            <h3>Informacion</h3>
-            <a href="#">Terminos y Condiciones</a>
-            <a href="#">Politica de Privacidad</a>
-            <a href="../pages/nosotros.html">Quienes Somos</a>
         </div>
     </footer>
 </body>

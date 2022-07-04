@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -12,36 +13,252 @@ body {
     font-weight: 400;
 }
 
-header {
-    background-color: aliceblue;
+img {
+    max-width: 100%;
 }
 
+/*CSS del header*/
 
-.nav__list {
-    list-style: none;
-    text-align: center;
-    width: 100rem;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
 }
 
-.nav__link {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: black;
-    text-transform: capitalize;
-    margin-left: 50rem;
-    display: inline-block;
-    width: 100rem;
-}
-
-.logo {
-    text-decoration: none;
-}
-
-.img__logo {
-    height: 6rem;
-    width: 6rem;
-    padding-top: 1rem;
+.header-container {
+    display: block;
+    padding-left: 6.2rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
+.navegation {
+    display: inline-block;
+    margin-left: 48rem;
+    position: relative;
+    bottom: 4.5rem;
+}
 
+.nav__list li{
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+}
+
+#pub {
+    border: 0.1rem solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.nav__link {
+    font-size: 1.4rem; 
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.div-container-logo {
+    display: inline-block;
+}
+
+.title-logo {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 2rem;
+}
+
+.img__logo {
+    display: block;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+/*CSS del main*/
+main {
+    background-color: #F3F4F6;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+    margin-bottom: 5rem;
+}
+
+.div-container {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image {
+    height: 5rem;
+    width: 5rem;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: beige;
+}
+
+#mas {
+    margin-bottom: 2.5rem;
+}
+
+.title-section {
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.title-image {
+    font-weight: 400;
+}
+
+/*CSS Main Contract*/
+
+.section-contract {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.div-product-container {
+    display: flex;
+    gap: 20rem;
+}
+
+.image-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.image-contract {
+    height: 20rem;
+    width: 30rem;
+}
+
+.icon-info {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 0.1rem;
+}
+
+.span-product {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.info-span{
+    font-size: 1.5rem;
+}
+
+/* CSS del Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-margin {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+    display: flex;
+}
+
+.info-contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 40rem;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.number-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-contact {
+    height: 2rem;
+    width: 2rem;
+}
+
+.icon-logo-footer {
+    height: 5rem;
+    width: 5rem;
+}
+
+.enlaces-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 5rem;
+    margin-left: 12rem;
+}
+
+.navegation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.enlace {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.title-navegation {
+    font-size: 1.5rem;
+}
