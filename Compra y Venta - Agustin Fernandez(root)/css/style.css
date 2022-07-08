@@ -34,9 +34,9 @@ img {
 
 .navegation {
     display: inline-block;
-    margin-left: 48rem;
+    margin-left: 55rem;
     position: relative;
-    bottom: 4.5rem;
+    bottom: 3.5rem;
 }
 
 .nav__list li{
@@ -172,8 +172,9 @@ main {
 }
 
 .image-contract {
-    height: 20rem;
+    height: 25rem;
     width: 30rem;
+    max-width: 1320px;
 }
 
 .icon-info {
