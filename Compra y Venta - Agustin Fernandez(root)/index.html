@@ -5,165 +5,233 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./icon/criptomoneda.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon/bitcoin.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <title>CryptoAvisos.com</title>
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header-container">
-        <div class="container">
-            <div class="div-container-logo">
-                <a class="logo" href="./index.html">
-                    <img class="img__logo" src="./icon/criptomoneda.png" alt="icon-page">
-                    <h1 class="title-logo">CriptoAvisos</h1>
-                </a>
+    <div class="div-margin">
+        <header class="header-container">
+            <div class="container">
+                <div class="div-container-logo">
+                    <a class="logo" href="./index.html">
+                        <img class="img__logo" src="./images/logo.jpg" alt="icon-page">
+                    </a>
+                </div>
+                <nav class="navegation">
+                    <ul class="nav__list">
+                        <li><a class="nav__link" href="./index.html">Inicio</a></li>
+                        <li><a class="nav__link" href="./pages/comercios.html">Comercios</a></li>
+                        <li><a class="nav__link" href="./pages/blog.html">Blog</a></li>
+                        <li><a class="nav__link" href="./pages/contactanos.html">Contactanos</a></li>
+                        <li><a class="nav__link" href="./pages/nosotros.html">Nosotros</a></li>
+                        <li><a class="nav__link" href="#">Buscar</a></li>
+                        <li><a id="pub" class="nav__link" href="#">Publica Gratis</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navegation">
-                <ul class="nav__list">
-                    <li><a class="nav__link" href="./index.html">Inicio</a></li>
-                    <li><a class="nav__link" href="./pages/comercios.html">Comercios</a></li>
-                    <li><a class="nav__link" href="./pages/blog.html">Blog</a></li>
-                    <li><a class="nav__link" href="./pages/contactanos.html">Contactanos</a></li>
-                    <li><a class="nav__link" href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a class="nav__link" href="#">Buscar</a></li>
-                    <li><a id="pub" class="nav__link" href="#">Publica Gratis</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
+    </div>
     <!-- Categorias de Productos -->
-    <main>
-        <section class="section-container">
-            <h1 class="title-section">Categorias Principales</h1>
-            <div class="div-container">
-                    <div class="image-container">
-                        <img class="image" src="./icon/casa.png" alt="Inmuebles">
-                        <h3 class="title-image">Inmuebles</h3>
-                    </div>  
-                  
-                    <div class="image-container">
-                        <img class="image" src="./icon/coche.png" alt="Vehiculos">
-                        <h3 class="title-image">Vehiculos</h3>
-                    </div>
-
-                    <div class="image-container">
-                        <img class="image" src="./icon/producto.png" alt="Producto">
-                        <h3 class="title-image">Producto</h3>
-                    </div>
+    <div class="div-background-color-index">
+        <div class="div-margin">
+            <main>
+                <section class="section-container">
+                    <h1 class="title-section">Categorias Principales</h1>
+                    <div class="div-container">
+                            <a href="#" class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/casa.png" alt="Inmuebles">
+                                </div>
+                                <h3 class="title-image">Inmuebles</h3>
+                            </a>  
+                            
+                            <div class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/coche.png" alt="Vehiculos">
+                                </div>
+                                <h3 class="title-image">Vehiculos</h3>
+                            </div>
+        
+                            <div class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/producto.png" alt="Producto">
+                                </div>
+                                <h3 class="title-image">Producto</h3>
+                            </div>
+                            
+                            <div class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/servicio-tecnico.png" alt="Servicio">
+                                </div>
+                                <h3 class="title-image">Servicios</h3>
+                            </div>
                     
-                    <div class="image-container">
-                        <img class="image" src="./icon/servicio-tecnico.png" alt="Servicio">
-                        <h3 class="title-image">Servicios</h3>
+                            <div class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/mineria-bitcoin.png" alt="Mineria criptomoneda">
+                                </div>
+                                <h3 class="title-image">Mineria</h3>
+                            </div>
+                            
+                            <div class="image-container">
+                                <div class="image-container-icon">
+                                    <img class="image" src="./icon/mas.png" alt="Add">
+                                </div>
+                            </div>
                     </div>
-            
-                    <div class="image-container">
-                        <img class="image" src="./icon/mineria-bitcoin.png" alt="Mineria criptomoneda">
-                        <h3 class="title-image">Mineria</h3>
+                </section>
+                <!-- Smart Contract -->
+                <section class="section-contract">
+                    <h2 class="title-contract">Comprar Via Smart Contract</h2>
+                    <div class="div-product-container">
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/compu.jpg" alt="">
+                            <div class="container-info-span">
+                                <div class="info-container">
+                                    <span class="span-product">1000</span>    
+                                    <img class="icon-info" src="./icon/tether.png" alt="">
+                                </div> 
+                                <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                            </div>
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/watch.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt=""> 
+                            </div>  
+                            <span class="info-span">Apple Watch Series 3 Nike</span>  
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
                     </div>
-                    
-                    <div id="mas" class="image-container">
-                        <img class="image" src="./icon/mas.png" alt="Add">
+                </section>
+                <!-- Inmuebles -->
+                <section class="section-contract">
+                    <h2 class="title-contract-other">Inmuebles</h2>
+                    <div class="div-product-container">
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/compu.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div> 
+                            <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/watch.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt=""> 
+                            </div>  
+                            <span class="info-span">Apple Watch Series 3 Nike</span>  
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
                     </div>
-            </div>
-        </section>
-        <!-- Smart Contract -->
-        <section class="section-contract">
-            <h2>Comprar Via Smart Contract</h2>
-            <div class="div-product-container">
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/compu.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div> 
-                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/watch.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt=""> 
-                    </div>  
-                    <span class="info-span">Apple Watch Series 3 Nike</span>  
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/auris.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div>  
-                    <span class="info-span">Galaxy Buds Pro Negro</span> 
-                </div>
-            </div>
-        </section>
-        <!-- Inmuebles -->
-        <section class="section-contract">
-            <h2>Inmuebles</h2>
-            <div class="div-product-container">
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/compu.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div> 
-                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/watch.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt=""> 
-                    </div>  
-                    <span class="info-span">Apple Watch Series 3 Nike</span>  
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/auris.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div>  
-                    <span class="info-span">Galaxy Buds Pro Negro</span> 
-                </div>
-            </div>
-        </section>
-        <!-- Vehiculos -->
-        <section class="section-contract">
-            <h2>Vehiculos</h2>
-            <div class="div-product-container">
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/compu.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div> 
-                    <span class="info-span">Msi GF65 THIN i7-10750H</span> 
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/watch.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt=""> 
-                    </div>  
-                    <span class="info-span">Apple Watch Series 3 Nike</span>  
-                </div> 
-                <div class="image-product-container">
-                    <img class="image-contract" src="./images/auris.jpg" alt="">
-                    <div class="info-container">
-                        <span class="span-product">1000</span>    
-                        <img class="icon-info" src="./icon/tether.png" alt="">
-                    </div>  
-                    <span class="info-span">Galaxy Buds Pro Negro</span> 
-                </div>
-            </div>
-        </section>
-    </main>
+                </section>
+                <!-- Vehiculos -->
+                <section class="section-contract">
+                    <h2 class="title-contract-other">Vehiculos</h2>
+                    <div class="div-product-container">
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/compu.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div> 
+                            <span class="info-span">Msi GF65 THIN i7-10750H</span> 
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/watch.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt=""> 
+                            </div>  
+                            <span class="info-span">Apple Watch Series 3 Nike</span>  
+                        </div> 
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                        <div class="image-product-container">
+                            <img class="image-contract" src="./images/auris.jpg" alt="">
+                            <div class="info-container">
+                                <span class="span-product">1000</span>    
+                                <img class="icon-info" src="./icon/tether.png" alt="">
+                            </div>  
+                            <span class="info-span">Galaxy Buds Pro Negro</span> 
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    
     <!-- Footer -->
-    <footer class="footer-container">
-        <div class="container-margin">
+    <div class="div-margin">
+        <footer class="footer-container">
             <div class="info-contact-container">
                 <a href="./index.html">
-                    <img class="icon-logo-footer" src="./icon/criptomoneda.png" alt="">
+                    <img class="icon-logo-footer" src="./images/logo.jpg" alt="">
                 </a>
                 <div class="email-container">
                     <img class="icon-contact" src="./icon/correo-electronico-vacio.png" alt="Email">
@@ -210,7 +278,7 @@
                     <a class="enlace" href="./pages/nosotros.html">Quienes Somos</a>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
