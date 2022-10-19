@@ -12,10 +12,10 @@
 
 header {
     display: flex;
-    flex-direction: column;
-    padding-bottom: 0.5rem;
+    justify-content: space-between;
     align-items: center;
-    height: 14rem;
+    padding-left: 1em;
+    padding-right: 1em;
 
     nav {
        

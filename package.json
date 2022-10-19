@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Agusef22/Curso-de-coder/issues"
   },
-  "homepage": "https://github.com/Agusef22/Curso-de-coder#readme"
+  "homepage": "https://github.com/Agusef22/Curso-de-coder#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
 }
